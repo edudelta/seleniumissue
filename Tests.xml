@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests" verbose="10">
+	<test name="asdf">
+		<classes>
+				<class name="tests.Fail1Tests" />
+		</classes>
+	</test>
+	<!--
+	<test name="asdf2">
+		<classes>
+			<class name="tests.Fail2Tests" />
+			<class name="tests.Fail3Tests" />
+			<class name="tests.Fail4Tests" />
+			<class name="tests.Fail5Tests" />
+			<class name="tests.Fail6Tests" />
+		</classes>
+	</test>
+	<test name="asdf3">
+		<classes>
+			<class name="tests.Fail7Tests" />
+			<class name="tests.Fail8Tests" />
+			<class name="tests.Fail9Tests" />
+			<class name="tests.Fail10Tests" />
+			<class name="tests.Fail11Tests" />
+			<class name="tests.Fail12Tests" />
+		</classes>
+	</test>
+	-->
+
+</suite>
