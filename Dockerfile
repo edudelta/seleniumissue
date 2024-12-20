@@ -13,13 +13,9 @@ RUN mkdir -p /usr/share/maven /usr/share/maven/ref \
 
 USER ${SEL_UID}
 
-ENV DISPLAY :99
-RUN Xvfb :99 -ac -screen 0 1280x1024x24 &
-
-
 ENV MAVEN_HOME /usr/share/maven
 ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
-ENV SE_START_XVFB true
+#ENV SE_START_XVFB true
 
 WORKDIR /app
 
